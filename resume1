@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>王晓彬 - 个人简历</title>
+
+<style>
+    body {
+        font-family: "Microsoft YaHei", sans-serif;
+        margin: 0;
+        padding: 0;
+        background:#f5f7fa;
+    }
+
+    .container{
+        max-width:850px;
+        background:white;
+        margin:40px auto;
+        padding:40px 50px;
+        border-radius:12px;
+        box-shadow:0 0 25px rgba(0,0,0,0.08);
+    }
+
+    h1{
+        margin:0;
+        font-size:32px;
+        color:#2D5A97;
+    }
+
+    .info{
+        margin-top:8px;
+        color:#555;
+        font-size:15px;
+        line-height:1.7;
+    }
+
+    section{
+        margin-top:30px;
+    }
+
+    section h2{
+        font-size:22px;
+        font-weight:bold;
+        color:#2D5A97;
+        border-left:5px solid #2D5A97;
+        padding-left:10px;
+        margin-bottom:15px;
+    }
+
+    ul{
+        margin-left:20px;
+        line-height:1.8;
+    }
+
+    .sub-title{
+        font-weight:bold;
+        font-size:17px;
+        margin-bottom:6px;
+        color:#333;
+    }
+
+    .time{
+        float:right;
+        color:#666;
+    }
+
+    /* 联系方式横排 */
+    .contact a{
+        margin-right:15px;
+        color:#2D5A97;
+        text-decoration:none;
+    }
+
+    .contact a:hover{
+        text-decoration:underline;
+    }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <h1>王晓彬</h1>
+
+    <p class="info contact">
+        📞 188-0000-0057
+        <a href="mailto:xxx@gmail.com">📧 xxx@gmail.com</a>
+        <a href="https://doublelll3.ml" target="_blank">🔗 个人主页</a>
+    </p>
+
+    <!-- 个人优势 -->
+    <section>
+        <h2>个人优势</h2>
+        <ul>
+            <li>计算机方面：xxxx</li>
+            <li>算法方面：xxxx</li>
+            <li>英语方面：xxxx</li>
+        </ul>
+    </section>
+
+    <!-- 教育背景 -->
+    <section>
+        <h2>教育背景</h2>
+
+        <p class="sub-title">xxxx大学 – 硕士 <span class="time">2018.9 - 2021.7</span></p>
+        <ul><li>xxxx奖学金 * 3、校三好学生 * 3</li></ul>
+
+        <p class="sub-title">xxxx大学 – 本科 <span class="time">2014.9 - 2018.7</span></p>
+    </section>
+
+    <!-- 经历 -->
+    <section>
+        <h2>经历</h2>
+
+        <p class="sub-title">xxxx公司（实习） – xx工程师 <span class="time">2020.6 - 2020.9</span></p>
+        <ul>
+            <li>负责xxxx方向实时监测...</li>
+            <li>研究xxx算法并完成上线...</li>
+        </ul>
+
+        <p class="sub-title">xxx研究院 – 实习生 <span class="time">2020.1 - 2020.5</span></p>
+        <ul>
+            <li>负责xxx技术开发...</li>
+            <li>搭建xxx平台，准确率达85%...</li>
+        </ul>
+    </section>
+
+    <!-- 项目 -->
+    <section>
+        <h2>项目经历</h2>
+
+        <p class="sub-title">大学研究课题 <span class="time">2018.3 - 至今</span></p>
+        <ul>
+            <li>研究xxx方法，准确率95%以上...</li>
+        </ul>
+    </section>
+
+</div>
+</body>
+</html>
